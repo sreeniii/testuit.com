@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Class-Path: spring-core-4.1.4.RELEASE.jar commons-logging-1.2.jar spri
+ ng-web-4.1.4.RELEASE.jar spring-aop-4.1.4.RELEASE.jar aopalliance-1.0
+ .jar spring-beans-4.1.4.RELEASE.jar spring-context-4.1.4.RELEASE.jar 
+ spring-expression-4.1.4.RELEASE.jar spring-webmvc-4.1.4.RELEASE.jar s
+ tandard-1.1.2.jar jstl-1.2.jar tiles-core-3.0.5.jar tiles-api-3.0.5.j
+ ar slf4j-api-1.7.6.jar tiles-request-api-1.0.6.jar commons-digester-2
+ .0.jar commons-beanutils-1.8.0.jar jcl-over-slf4j-1.7.6.jar tiles-jsp
+ -3.0.5.jar tiles-servlet-3.0.5.jar tiles-request-servlet-1.0.6.jar ti
+ les-template-3.0.5.jar tiles-autotag-core-runtime-1.1.0.jar tiles-req
+ uest-jsp-1.0.6.jar
+

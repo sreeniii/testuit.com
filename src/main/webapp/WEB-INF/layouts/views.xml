@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="login" extends="staticTemplate">
+	    <put-attribute name="staticBody"	value="/WEB-INF/views/Login.jsp" />
+	</definition>
+	
+	<definition name="forgotPassword" extends="staticTemplate">
+	    <put-attribute name="staticBody"	value="/WEB-INF/views/ForgotPassword.jsp" />
+	</definition>
+
+	<definition name="personList" extends="defaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/personList.jsp" />
+	</definition>
+	
+</tiles-definitions>
