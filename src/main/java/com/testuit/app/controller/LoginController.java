@@ -9,16 +9,12 @@ public class LoginController {
 
 	@RequestMapping("/login")
 	public ModelAndView loginForm() {
-		System.out.println("in controller");
- 
 		ModelAndView mv = new ModelAndView("login");
 		return mv;
 	}
 	
 	@RequestMapping("/forgotPassword")
 	public ModelAndView forgotPassword() {
-		System.out.println("in controller");
- 
 		ModelAndView mv = new ModelAndView("forgotPassword");
 		return mv;
 	}
