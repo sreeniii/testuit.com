@@ -3,10 +3,20 @@ Class-Path: spring-core-4.1.4.RELEASE.jar commons-logging-1.2.jar spri
  ng-web-4.1.4.RELEASE.jar spring-aop-4.1.4.RELEASE.jar aopalliance-1.0
  .jar spring-beans-4.1.4.RELEASE.jar spring-context-4.1.4.RELEASE.jar 
  spring-expression-4.1.4.RELEASE.jar spring-webmvc-4.1.4.RELEASE.jar s
- tandard-1.1.2.jar jstl-1.2.jar tiles-core-3.0.5.jar tiles-api-3.0.5.j
- ar slf4j-api-1.7.6.jar tiles-request-api-1.0.6.jar commons-digester-2
- .0.jar commons-beanutils-1.8.0.jar jcl-over-slf4j-1.7.6.jar tiles-jsp
- -3.0.5.jar tiles-servlet-3.0.5.jar tiles-request-servlet-1.0.6.jar ti
- les-template-3.0.5.jar tiles-autotag-core-runtime-1.1.0.jar tiles-req
- uest-jsp-1.0.6.jar
+ pring-orm-4.1.4.RELEASE.jar spring-jdbc-4.1.4.RELEASE.jar spring-tx-4
+ .1.4.RELEASE.jar spring-security-web-3.2.5.RELEASE.jar spring-securit
+ y-core-3.2.5.RELEASE.jar spring-security-config-3.2.5.RELEASE.jar spr
+ ing-security-taglibs-3.2.5.RELEASE.jar spring-security-acl-3.2.5.RELE
+ ASE.jar spring-aspects-4.1.4.RELEASE.jar aspectjweaver-1.8.4.jar stan
+ dard-1.1.2.jar jstl-1.2.jar tiles-core-3.0.5.jar tiles-api-3.0.5.jar 
+ slf4j-api-1.7.6.jar tiles-request-api-1.0.6.jar commons-digester-2.0.
+ jar commons-beanutils-1.8.0.jar jcl-over-slf4j-1.7.6.jar tiles-jsp-3.
+ 0.5.jar tiles-servlet-3.0.5.jar tiles-request-servlet-1.0.6.jar tiles
+ -template-3.0.5.jar tiles-autotag-core-runtime-1.1.0.jar tiles-reques
+ t-jsp-1.0.6.jar hibernate-core-4.2.11.Final.jar antlr-2.7.7.jar jboss
+ -logging-3.1.0.GA.jar dom4j-1.6.1.jar javassist-3.18.1-GA.jar jboss-t
+ ransaction-api_1.1_spec-1.0.1.Final.jar hibernate-jpa-2.0-api-1.0.1.F
+ inal.jar hibernate-commons-annotations-4.0.2.Final.jar hibernate-ehca
+ che-4.2.11.Final.jar ehcache-core-2.4.3.jar mysql-connector-java-5.1.
+ 30.jar logback-classic-1.1.2.jar logback-core-1.1.2.jar
 

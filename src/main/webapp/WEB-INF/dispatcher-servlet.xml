@@ -11,7 +11,7 @@ http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 	<context:annotation-config />
-	<context:component-scan base-package="com.testuit.app.controller" />
+	<context:component-scan base-package="com.testuit.app" />
 
 	<mvc:resources mapping="/resources/**" location="/resources/" />
  
@@ -27,4 +27,6 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 			</list>
 		</property>
 	</bean>
+	
+	
 </beans>
