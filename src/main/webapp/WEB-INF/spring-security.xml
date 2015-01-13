@@ -18,10 +18,10 @@
 
 		<!-- access denied page -->
 		<access-denied-handler error-page="/403" />
-		<form-login login-page="/login" default-target-url="/welcome"
+		<form-login login-page="/login" default-target-url="/dashboard"
 			authentication-failure-url="/login?error" username-parameter="username"
 			password-parameter="password" />
-		<logout logout-success-url="/login?logout" />
+		<logout logout-success-url="/login?logout" invalidate-session="true" delete-cookies="JSESSIONID"/>
 		<!-- enable csrf protection -->
 		<csrf />
 	</http>

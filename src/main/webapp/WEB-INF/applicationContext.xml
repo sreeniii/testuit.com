@@ -55,6 +55,7 @@
 
 	<bean id="persistenceExceptionTranslationPostProcessor"
 		class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
+	<tx:annotation-driven />
 		
 	<tx:advice id="txAdvice" transaction-manager="transactionManager">
 	    <tx:attributes>

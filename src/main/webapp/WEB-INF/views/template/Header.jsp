@@ -1,3 +1,21 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@page session="true"%>
+
+<c:url value="/j_spring_security_logout" var="logoutUrl" />
+
+<!-- csrt support -->
+<form action="${logoutUrl}" method="post" id="logoutForm">
+	<input type="hidden" 
+		name="${_csrf.parameterName}"
+		value="${_csrf.token}" />
+</form>
+
+<script>
+	function logout() {
+		document.getElementById("logoutForm").submit();
+	}
+</script>
+
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">
@@ -26,16 +44,16 @@
 							<li><a href="#">A Separated link</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Support </a></li>
+					<li>Welcome : ${pageContext.request.userPrincipal.name}</li>
 					<li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<img src="images/user.png" class="nav-avatar" />
+						<img src="resources/images/user.png" class="nav-avatar" />
 						<b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Your Profile</a></li>
 							<li><a href="#">Edit Profile</a></li>
 							<li><a href="#">Account Settings</a></li>
 							<li class="divider"></li>
-							<li><a href="#">Logout</a></li>
+							<li><a href="javascript:logout()" >Logout</a></li>
 						</ul>
 					</li>
 				</ul>

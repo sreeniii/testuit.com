@@ -11,9 +11,17 @@
 	<definition name="forgotPassword" extends="staticTemplate">
 	    <put-attribute name="staticBody"	value="/WEB-INF/views/ForgotPassword.jsp" />
 	</definition>
+	
+	<definition name="403" extends="staticTemplate">
+	    <put-attribute name="staticBody"	value="/WEB-INF/views/403.jsp" />
+	</definition>
 
 	<definition name="personList" extends="defaultTemplate">
 	    <put-attribute name="body"	value="/WEB-INF/views/personList.jsp" />
+	</definition>
+	
+	<definition name="dashboard" extends="defaultTemplate">
+	    <put-attribute name="body"	value="/WEB-INF/views/Dashboard.jsp" />
 	</definition>
 	
 </tiles-definitions>
